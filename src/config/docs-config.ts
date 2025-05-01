@@ -13,94 +13,6 @@ export const docsConfig: DocsConfig = {
 
       ]
     },
-    // {
-    //   title: "Components",
-    //   slug: "components",
-    //   items: [
-    //     {
-    //       title: "Overview",
-    //       href: "/components"
-    //     },
-
-    //     {
-    //       title: "Sections",
-    //       items:[
-    //         {title:"Bentogrid", href:"/components/sections/bentogrid"},
-    //         { title:"companies", href:"/components/sections/companies"},
-    //         {title:"Particles", href:"/components/sections/particles"},
-    //         { title:"Pricing", href:"/components/sections/pricing"},
-    //         {title:"Progress slider", href:"/components/sections/progressslider"},
-    //         { title:"Timeline", href:"/components/sections/timeline"}
-
-
-    //       ]
-    //     },
-
-
-    //     {
-    //         title: "Special Animations",
-    //         items: [
-
-    //           { title: "Tag", href: "/components/special-animations/tag" },
-    //           { title: "Cobe globe", href: "/components/special-animations/cobeglobe" },
-    //           { title: "spotlight card", href: "/components/special-animations/spotlightcard"},
-    //           { title: "Search", href: "/components/special-animations/searchmodal" },
-
-
-    //         ]
-    //       },
-
-    //       {
-    //         title: "Background Animations",
-    //         items: [
-    //           { title: "Swirl", href: "/components/backgrounds/aswirl" },
-    //           { title: "Hacker", href: "/components/backgrounds/bghacker" },
-    //           { title: "Dots", href: "/components/backgrounds/dot" },
-    //           { title: "Grid", href: "/components/backgrounds/grid" },
-    //           { title: "No signal", href: "/components/backgrounds/nosignal" },
-
-
-    //         ]
-    //       },
-
-
-    //     {
-    //       title: "Text Animations",
-    //       items: [
-    //         { title: "Blurin", href: "/components/text/blurin" },
-    //         { title: "Fadedown", href: "/components/text/fadedown" },
-    //         { title: "Fadein", href: "/components/text/fadein" },
-    //         { title: "Fadeup", href: "/components/text/fadeup" },
-    //         { title: "Gradual spacing", href: "/components/text/gradualspacing" },
-    //         { title: "Letter pull up", href: "/components/text/letterpullup" },
-    //         { title: "Multi direction slide", href: "/components/text/multidirection" },
-    //         { title: "Scroll based velocity", href: "/components/text/scrollbasedvelocity" },
-    //         { title: "Seperate away", href: "/components/text/seperateaway" },
-    //         { title: "Slight Flip", href: "/components/text/slightflip" },
-    //         { title: "Typing Effect", href: "/components/text/typingeffect" },
-    //         { title: "Wavy text", href: "/components/text/wavytext" },
-    //         { title: "Word pull up", href: "/components/text/wordpullup" },
-
-    //       ]
-    //     },
-
-    //     {
-    //       title: "Forms",
-    //       items: [
-    //         { title: "Multi step form", href: "/components/forms/multistepform" },
-
-    //       ]
-    //     },
-    //     {
-    //       title: "Input",
-    //       items: [
-    //         { title: "calendar", href: "/components/input/calendar" },
-
-    //       ]
-    //     },
-
-    //   ]
-    // }, 
     {
         title: "Workshops",
         slug: "workshops",
@@ -112,9 +24,6 @@ export const docsConfig: DocsConfig = {
           { title: "Social Responsibility", href: "/workshops/social-responsibility" },
           { title: "Stewardship", href: "/workshops/stewardship" },
           { title: "Values, Ethics, Virtue", href: "/workshops/values-ethics-virtue" },
-
-
-
 
         ]
       },
@@ -128,8 +37,6 @@ export const docsConfig: DocsConfig = {
           { title: "Self Actualizing", href: "/mentoring/self-actualizing" },
           { title: "Unparalleled Leadership", href: "/mentoring/unparalleled-leadership" },
 
-
-
         ]
       },
       {
@@ -137,7 +44,6 @@ export const docsConfig: DocsConfig = {
         slug: "speaking",
         items: [
           { title: "Keynote, Seminars, Training", href: "/speaking/keynote-seminar-training" },
-
 
         ]
       },
@@ -148,8 +54,6 @@ export const docsConfig: DocsConfig = {
           { title: "Engaging the Heart for People Performance and Profit", href: "/books/Engaging-the-Heart-for-People-Performance-and-Profit" },
           { title: "Recognizing and Rewarding Employees", href: "/books/Recognizing-and-Rewarding-Employees" },
 
-
-
         ]
       },
       {
@@ -158,8 +62,6 @@ export const docsConfig: DocsConfig = {
         items: [
           { title: "Is the somking gun of anger killing your business?", href: "/ezworks/anger" },
           { title: "When bad things happen to good managers", href: "/ezworks/manager" },
-
-
 
         ]
       },
