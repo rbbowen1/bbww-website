@@ -57,9 +57,9 @@ export default function Hero() {
                 <h1 className="relative mx-0 max-w-[43.5rem] text-balance pt-5 text-left text-5xl font-extrabold tracking-tight text-black dark:text-white sm:text-7xl md:mx-auto md:px-4 md:py-2 md:text-center md:text-7xl lg:text-7xl">
                   Building Better Worlds of  <span className="bg-gradient bg-clip-text text-transparent">Work</span>
                 </h1>
-                <span className="text-neutral-90 absolute -top-1 left-[-20px] z-10 rotate-12 whitespace-nowrap rounded-full bg-neutral-800 px-2.5 py-1 text-[11px] font-semibold uppercase leading-5 tracking-wide text-white md:top-1 md:-rotate-12">
+                {/* <span className="text-neutral-90 absolute -top-1 left-[-20px] z-10 rotate-12 whitespace-nowrap rounded-full bg-neutral-800 px-2.5 py-1 text-[11px] font-semibold uppercase leading-5 tracking-wide text-white md:top-1 md:-rotate-12">
                   AM & SHRM-SCP
-                </span>
+                </span> */}
 
                 <Image
                   src="/images/img_5.png"
@@ -69,7 +69,7 @@ export default function Hero() {
                 />
               </div>
               <p className="max-w-[64rem] text-balance text-lg tracking-tight text-black dark:text-white md:text-xl">
-                Enhance your reputation and personal success with Brayton Bowen,   {" "}
+                Enhance your reputation and personal success with R. Brayton Bowen, AM & SHRM-SCP   {" "}
                 <strong>business consultant</strong>, <strong>performance coach</strong>, <strong>educator</strong>,{" "}
                 <strong>author</strong>, and{" "}
                 <strong>professional speaker</strong>.

@@ -53,6 +53,8 @@ export const docsConfig: DocsConfig = {
         items: [
           { title: "Engaging the Heart for People Performance and Profit", href: "/books/Engaging-the-Heart-for-People-Performance-and-Profit" },
           { title: "Recognizing and Rewarding Employees", href: "/books/Recognizing-and-Rewarding-Employees" },
+          { title: "Back to a New Normal", href: "/books/Back-to-a-new-normal" },
+          { title: "Compassion in Action", href: "/books/Compassion-in-action" },
 
         ]
       },

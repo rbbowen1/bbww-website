@@ -14,12 +14,12 @@ const reviews = [
     body: "I don't know what to say. I'm speechless. This is amazing.",
     img: "/images/kevin-lynch.png",
   },
-  {
-    name: "Shelly",
-    username: "",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "/images/shelly.png",
-  },
+  // {
+  //   name: "Shelly",
+  //   username: "",
+  //   body: "I'm at a loss for words. This is amazing. I love it.",
+  //   img: "/images/shelly.png",
+  // },
   {
     name: "Caryle",
     username: "",

@@ -31,231 +31,168 @@ const docsConfig: DocsConfig = {
 
       ],
     },
-    // {
-    //   title: "Components",
-    //   slug: "components",
-    //   items: [
-    //     {
-    //       title: "Overview",
-    //       href: "/components",
-    //     },
-    //     {
-    //       title: "Buttons",
-    //       items: [
-    //         { title: "Button", href: "/components/buttons/button" },
-    //         {
-    //           title: "Toggle Button",
-    //           href: "/components/buttons/toggle-button",
-    //         },
-    //         {
-    //           title: "File Trigger",
-    //           href: "/components/buttons/file-trigger",
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       title: "Inputs",
-    //       items: [
-    //         { title: "TextField", href: "/components/inputs/text-field" },
-    //         { title: "TextArea", href: "/components/inputs/text-area" },
-    //         {
-    //           title: "SearchField",
-    //           href: "/components/inputs/search-field",
-    //         },
-    //         {
-    //           title: "NumberField",
-    //           href: "/components/inputs/number-field",
-    //         },
-    //         { title: "Checkbox", href: "/components/inputs/checkbox" },
-    //         {
-    //           title: "Checkbox Group",
-    //           href: "/components/inputs/checkbox-group",
-    //         },
-    //         {
-    //           title: "Radio Group",
-    //           href: "/components/inputs/radio-group",
-    //         },
-    //         { title: "Switch", href: "/components/inputs/switch" },
-    //         { title: "Slider", href: "/components/inputs/slider" },
-    //       ],
-    //     },
-    //     {
-    //       title: "Menus and Selection",
-    //       items: [
-    //         { title: "Menu", href: "/components/menus-and-selection/menu" },
-    //         { title: "ListBox", href: "/components/menus-and-selection/list-box" },
-    //         { title: "Select", href: "/components/menus-and-selection/select" },
-    //         { title: "Combobox", href: "/components/menus-and-selection/combobox" },
-    //       ],
-    //     },
-    //     {
-    //       title: "Dates",
-    //       items: [
-    //         { title: "Calendar", href: "/components/dates/calendar" },
-    //         {
-    //           title: "Range Calendar",
-    //           href: "/components/dates/range-calendar",
-    //         },
-    //         { title: "Time Field", href: "/components/dates/time-field" },
-    //         { title: "Date Field", href: "/components/dates/date-field" },
-    //         {
-    //           title: "Date Picker",
-    //           href: "/components/dates/date-picker",
-    //         },
-    //         {
-    //           title: "Date Range Picker",
-    //           href: "/components/dates/date-range-picker",
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       title: "Colors",
-    //       items: [
-    //         { title: "Color Area", href: "/components/colors/color-area" },
-    //         {
-    //           title: "Color Field",
-    //           href: "/components/colors/color-field",
-    //         },
-    //         {
-    //           title: "Color Slider",
-    //           href: "/components/colors/color-slider",
-    //         },
-    //         {
-    //           title: "Color Swatch",
-    //           href: "/components/colors/color-swatch",
-    //         },
-    //         {
-    //           title: "Color Picker",
-    //           href: "/components/colors/color-picker",
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       title: "Drag and drop",
-    //       items: [
-    //         {
-    //           title: "DropZone",
-    //           href: "/components/drag-and-drop/drop-zone",
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       title: "Feedback",
-    //       items: [
-    //         { title: "Alert", href: "/components/feedback/alert" },
-    //         { title: "Progress", href: "/components/feedback/progress" },
-    //         { title: "Skeleton", href: "/components/feedback/skeleton" },
-    //       ],
-    //     },
-    //     {
-    //       title: "Layout",
-    //       items: [
-    //         { title: "Aspect Ratio", href: "/components/layout/aspect-ratio" },
-    //         { title: "Scroll Area", href: "/components/layout/scroll-area" },
-    //       ],
-    //     },
-    //     {
-    //       title: "Data display",
-    //       items: [
-    //         { title: "Avatar", href: "/components/data-display/avatar" },
-    //         { title: "Badge", href: "/components/data-display/badge" },
-    //         { title: "Separator", href: "/components/data-display/separator" },
-    //       ],
-    //     },
-    //     {
-    //       title: "Navigation",
-    //       items: [
-    //         { title: "Link", href: "/components/navigation/link" },
-    //         { title: "Tabs", href: "/components/navigation/tabs" },
-    //         { title: "Breadcrumbs", href: "/components/navigation/breadcrumbs" },
-    //       ],
-    //     },
-    //     {
-    //       title: "Overlay",
-    //       items: [
-    //         { title: "Dialog", href: "/components/overlay/dialog" },
-    //         { title: "Alert Dialog", href: "/components/overlay/dialog#alert-dialog" },
-    //         { title: "Drawer", href: "/components/overlay/dialog#drawer" },
-    //         { title: "Popover", href: "/components/overlay/dialog#popover" },
-    //         { title: "Tooltip", href: "/components/overlay/tooltip" },
-    //       ],
-    //     },
-    //   ],
-    // },
-    // {
-    //   title: "Templates",
-    //   slug: "templates",
-    //   items: [
-    //     {
-    //       title: "Portfolio",
-    //       href: "/templates/portfolio",
-    //     },
+    {
+      title: "Components",
+      slug: "components",
+      items: [
+        {
+          title: "Overview",
+          href: "/components",
+        },
+        {
+          title: "Buttons",
+          items: [
+            { title: "Button", href: "/components/buttons/button" },
+            {
+              title: "Toggle Button",
+              href: "/components/buttons/toggle-button",
+            },
+            {
+              title: "File Trigger",
+              href: "/components/buttons/file-trigger",
+            },
+          ],
+        },
+        {
+          title: "Inputs",
+          items: [
+            { title: "TextField", href: "/components/inputs/text-field" },
+            { title: "TextArea", href: "/components/inputs/text-area" },
+            {
+              title: "SearchField",
+              href: "/components/inputs/search-field",
+            },
+            {
+              title: "NumberField",
+              href: "/components/inputs/number-field",
+            },
+            { title: "Checkbox", href: "/components/inputs/checkbox" },
+            {
+              title: "Checkbox Group",
+              href: "/components/inputs/checkbox-group",
+            },
+            {
+              title: "Radio Group",
+              href: "/components/inputs/radio-group",
+            },
+            { title: "Switch", href: "/components/inputs/switch" },
+            { title: "Slider", href: "/components/inputs/slider" },
+          ],
+        },
+        {
+          title: "Menus and Selection",
+          items: [
+            { title: "Menu", href: "/components/menus-and-selection/menu" },
+            { title: "ListBox", href: "/components/menus-and-selection/list-box" },
+            { title: "Select", href: "/components/menus-and-selection/select" },
+            { title: "Combobox", href: "/components/menus-and-selection/combobox" },
+          ],
+        },
+        {
+          title: "Dates",
+          items: [
+            { title: "Calendar", href: "/components/dates/calendar" },
+            {
+              title: "Range Calendar",
+              href: "/components/dates/range-calendar",
+            },
+            { title: "Time Field", href: "/components/dates/time-field" },
+            { title: "Date Field", href: "/components/dates/date-field" },
+            {
+              title: "Date Picker",
+              href: "/components/dates/date-picker",
+            },
+            {
+              title: "Date Range Picker",
+              href: "/components/dates/date-range-picker",
+            },
+          ],
+        },
+        {
+          title: "Colors",
+          items: [
+            { title: "Color Area", href: "/components/colors/color-area" },
+            {
+              title: "Color Field",
+              href: "/components/colors/color-field",
+            },
+            {
+              title: "Color Slider",
+              href: "/components/colors/color-slider",
+            },
+            {
+              title: "Color Swatch",
+              href: "/components/colors/color-swatch",
+            },
+            {
+              title: "Color Picker",
+              href: "/components/colors/color-picker",
+            },
+          ],
+        },
+        {
+          title: "Drag and drop",
+          items: [
+            {
+              title: "DropZone",
+              href: "/components/drag-and-drop/drop-zone",
+            },
+          ],
+        },
+        {
+          title: "Feedback",
+          items: [
+            { title: "Alert", href: "/components/feedback/alert" },
+            { title: "Progress", href: "/components/feedback/progress" },
+            { title: "Skeleton", href: "/components/feedback/skeleton" },
+          ],
+        },
+        {
+          title: "Layout",
+          items: [
+            { title: "Aspect Ratio", href: "/components/layout/aspect-ratio" },
+            { title: "Scroll Area", href: "/components/layout/scroll-area" },
+          ],
+        },
+        {
+          title: "Data display",
+          items: [
+            { title: "Avatar", href: "/components/data-display/avatar" },
+            { title: "Badge", href: "/components/data-display/badge" },
+            { title: "Separator", href: "/components/data-display/separator" },
+          ],
+        },
+        {
+          title: "Navigation",
+          items: [
+            { title: "Link", href: "/components/navigation/link" },
+            { title: "Tabs", href: "/components/navigation/tabs" },
+            { title: "Breadcrumbs", href: "/components/navigation/breadcrumbs" },
+          ],
+        },
+        {
+          title: "Overlay",
+          items: [
+            { title: "Dialog", href: "/components/overlay/dialog" },
+            { title: "Alert Dialog", href: "/components/overlay/dialog#alert-dialog" },
+            { title: "Drawer", href: "/components/overlay/dialog#drawer" },
+            { title: "Popover", href: "/components/overlay/dialog#popover" },
+            { title: "Tooltip", href: "/components/overlay/tooltip" },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Templates",
+      slug: "templates",
+      items: [
+        {
+          title: "Portfolio",
+          href: "/templates/portfolio",
+        },
        
 
-    //   ],
-    // },
-
-    {
-      title: "Workshops",
-      slug: "workshops",
-      items: [
-        { title: "DEI", href: "/workshops/DEI" },
-        { title: "Enlightened Self Interest", href: "/workshops/Enlightened-Self-Interest" },
-        { title: "Leadership", href: "/workshops/leadership" },
-        { title: "Organization Culture", href: "/workshops/organization-culture" },
-        { title: "Social Responsibility", href: "/workshops/social-responsibility" },
-        { title: "Stewardship", href: "/workshops/stewardship" },
-        { title: "Values, Ethics, Virtue", href: "/workshops/values-ethics-virtue" },
-
-
-
-
-      ]
-    },
-    {
-      title: "Mentoring",
-      slug: "mentoring",
-      items: [
-        { title: "Mind Mastery", href: "/mentoring/mind-mastery" },
-        { title: "Restart", href: "/mentoring/restart" },
-        { title: "ROI", href: "/mentoring/roi" },
-        { title: "Self Actualizing", href: "/mentoring/self-actualizing" },
-        { title: "Unparalleled Leadership", href: "/mentoring/unparalleled-leadership" },
-
-
-
-      ]
-    },
-    {
-      title: "Speaking",
-      slug: "speaking",
-      items: [
-        { title: "Keynote, Seminars, Training", href: "/speaking/keynote-seminar-training" },
-
-
-      ]
-    },
-    {
-      title: "Books",
-      slug: "books",
-      items: [
-        { title: "Engaging the Heart for People Performance and Profit", href: "/books/Engaging-the-Heart-for-People-Performance-and-Profit" },
-        { title: "Recognizing and Rewarding Employees", href: "/books/Recognizing-and-Rewarding-Employees" },
-
-
-
-      ]
-    },
-    {
-      title: "EZWorks",
-      slug: "ezworks",
-      items: [
-        { title: "Is the somking gun of anger killing your business?", href: "/ezworks/anger" },
-        { title: "When bad things happen to good managers", href: "/ezworks/manager" },
-
-
-
-      ]
+      ],
     },
   ],
 };

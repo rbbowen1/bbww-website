@@ -16,7 +16,8 @@ export const CallToAction = async (props: CallToActionProps) => {
   return (
     <section className={cn("mx-auto max-w-2xl px-6 text-center", className)}>
       <h2 className="mx-auto mt-8 max-w-2xl text-3xl font-bold tracking-tighter lg:text-5xl">
-        Proud <span className="bg-gradient bg-clip-text text-transparent">Compassion Advocate</span>
+        {/* Proud */}
+         <span className="bg-gradient bg-clip-text text-transparent">Compassion Advocate</span>
       </h2>
       <p className="mt-4 text-lg text-fg-muted">
       Brayton is a Compassion Advocate and recognized Expert in Organization Performance and Competencies of Compassion.
