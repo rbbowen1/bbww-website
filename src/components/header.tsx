@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { MenuIcon } from "lucide-react";
-import {  TwitterIcon } from "@/components/icons";
+import { TwitterIcon } from "@/components/icons";
 import { Avatar } from "@/lib/components/core/default/avatar";
 import { Badge } from "@/lib/components/core/default/badge";
 import { Button } from "@/lib/components/core/default/button";
@@ -48,7 +48,15 @@ export const Header = () => {
                 loading="lazy"
                 width={24}
                 height={24}
-                className="size-6 rounded-sm"
+                className="w-28 h-7 rounded-sm block dark:hidden"
+              />
+              <Avatar
+                src={siteConfig.global.logoWhite}
+                alt={siteConfig.global.name}
+                loading="lazy"
+                width={24}
+                height={24}
+                className="w-28 h-7 rounded-sm hidden dark:block"
               />
               <div className="mt-1 font-sans whitespace-nowrap font-bold leading-normal tracking-tighter">
                 {siteConfig.global.name}
@@ -77,8 +85,16 @@ export const Header = () => {
               <Image
                 src={siteConfig.global.logo}
                 alt={siteConfig.global.name}
-                width={20}
-                height={20}
+                width={50}
+                height={40}
+                className="block dark:hidden"
+              />
+               <Image
+                src={siteConfig.global.logoWhite}
+                alt={siteConfig.global.name}
+                width={50}
+                height={40}
+                className="hidden dark:block"
               />
             </Link>
             <Nav items={config.nav.links} />
@@ -116,7 +132,7 @@ export const Header = () => {
         </div>
 
 
-        
+
         {/* Mobile nav */}
         <div className="flex w-full items-center gap-4 md:hidden">
           <Link

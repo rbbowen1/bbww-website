@@ -1,5 +1,13 @@
 
-
+            <video
+              src={thumbnail.video}
+              poster={thumbnail.image}
+              muted
+              loop
+              autoPlay
+              playsInline
+              preload="none"
+            />
 <!-- ////////////////////////// -->
 
 

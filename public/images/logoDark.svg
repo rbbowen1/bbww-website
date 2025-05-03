@@ -12,23 +12,23 @@
       <title>Triasngles</title>
       <g>
         <title>1st</title>
-        <path d="M 109.922 194.906 L 122.287 215.734 L 97.557 215.734 L 109.922 194.906 Z" bx:shape="triangle 97.557 194.906 24.73 20.828 0.5 0 1@4f2c1502" style="stroke-width: 0.5px; fill: rgba(255, 255, 255, 0); stroke: rgb(39, 0, 99);"/>
+        <path d="M 109.922 194.906 L 122.287 215.734 L 97.557 215.734 L 109.922 194.906 Z" bx:shape="triangle 97.557 194.906 24.73 20.828 0.5 0 1@4f2c1502" style="stroke-width: 0.5px; fill: rgba(255, 255, 255, 0); stroke: rgb(0, 0, 0);"/>
       </g>
       <g>
         <title>2nd</title>
-        <path d="M 128.457 215.147 L 108.877 200.888 L 131.6 191.13 L 128.457 215.147 Z M 111.182 200.944 L 127.811 213.355 L 129.948 193.145 L 111.182 200.944 Z" style="stroke-width: 0.5px; fill-rule: nonzero; stroke: rgb(39, 0, 99); fill: rgb(39, 0, 99);"/>
+        <path d="M 128.457 215.147 L 108.877 200.888 L 131.6 191.13 L 128.457 215.147 Z M 111.182 200.944 L 127.811 213.355 L 129.948 193.145 L 111.182 200.944 Z" style="stroke-width: 0.5px; fill-rule: nonzero; stroke: rgb(0, 0, 0);"/>
       </g>
       <g>
         <title>3rd</title>
-        <path d="M 140.483 191.759 L 147.098 215.06 L 123.194 208.723 L 140.483 191.759 Z M 129.472 207.103 L 142.232 210.523 L 138.731 198.068 L 129.472 207.103 Z" style="stroke-width: 0.5px; stroke-dashoffset: -76px; fill: rgb(39, 0, 99); stroke: rgb(39, 0, 99);"/>
+        <path d="M 140.483 191.759 L 147.098 215.06 L 123.194 208.723 L 140.483 191.759 Z M 129.472 207.103 L 142.232 210.523 L 138.731 198.068 L 129.472 207.103 Z" style="stroke-width: 0.5px; stroke-dashoffset: -76px; stroke: rgb(0, 0, 0);"/>
       </g>
       <g>
         <title>4th</title>
-        <path d="M 156.309 190.966 L 155.293 215.166 L 134.576 201.661 L 156.309 190.966 Z M 151.498 199.341 L 145.017 202.58 L 150.986 206.419 L 151.498 199.341 Z" style="stroke-width: 0.5px; stroke: rgb(39, 0, 99); fill: rgb(39, 0, 99);"/>
+        <path d="M 156.309 190.966 L 155.293 215.166 L 134.576 201.661 L 156.309 190.966 Z M 151.498 199.341 L 145.017 202.58 L 150.986 206.419 L 151.498 199.341 Z" style="stroke-width: 0.5px; stroke: rgb(0, 0, 0);"/>
       </g>
       <g>
         <title>Last</title>
-        <path d="M 161.441 190.969 L 173.806 211.797 L 149.076 211.797 L 161.441 190.969 Z" bx:shape="triangle 149.076 190.969 24.73 20.828 0.5 0 1@35518548" style="stroke-width: 0.5px; transform-box: fill-box; transform-origin: 50% 50%; fill: rgb(39, 0, 99); stroke: rgb(39, 0, 99);" transform="matrix(-1, -0.000946, 0.000946, -1, -1.030227, 3.017728)"/>
+        <path d="M 161.441 190.969 L 173.806 211.797 L 149.076 211.797 L 161.441 190.969 Z" bx:shape="triangle 149.076 190.969 24.73 20.828 0.5 0 1@35518548" style="stroke-width: 0.5px; transform-box: fill-box; transform-origin: 50% 50%; stroke: rgb(0, 0, 0);" transform="matrix(-1, -0.000946, 0.000946, -1, -1.030227, 3.017728)"/>
         <g id="SVGRepo_bgCarrier" stroke-width="0" transform="matrix(1, 0, 0, 1, 148.300021, 229.151356)"/>
         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1, 0, 0, 1, 148.300021, 229.151356)"/>
       </g>

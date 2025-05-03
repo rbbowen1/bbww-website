@@ -113,9 +113,7 @@ const Thumbnail = ({
             <video
               src={thumbnail.video}
               poster={thumbnail.image}
-              muted
-              loop
-              autoPlay
+              controls
               playsInline
               preload="none"
             />

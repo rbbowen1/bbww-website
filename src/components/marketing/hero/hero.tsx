@@ -137,11 +137,27 @@ export default function Hero() {
           />
 
           <Image
+            src="/images/shrm2.png"
+            width={150}
+            height={150}
+            alt="SHRM"
+          />
+
+          <Image
             src="/images/whoswho.png"
             width={150}
             height={150}
             alt="whoswho"
           />
+          
+          <Image
+            src="/images/shrm3.png"
+            width={130}
+            height={130}
+            alt="SHRM"
+          />
+
+
 
           {/* <TechStack
             className="mx-auto "

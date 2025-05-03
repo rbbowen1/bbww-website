@@ -2,7 +2,8 @@ export const siteConfig = {
   global: {
     url: "https://www.eldoraui.site/",
     name: "BBWW",
-    logo: "/images/logo.svg",
+    logo: "/images/logoBlue.svg",
+    logoWhite: "/images/logoWhite.svg",
     title: "Building Better Worlds of Work",
     description: "Enhance your reputation and personal success",
     keywords: [],

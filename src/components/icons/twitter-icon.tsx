@@ -12,6 +12,7 @@ export const TwitterIcon = ({ color = "currentColor", size = 24, ...rest }: Icon
     width={50}
     height={50}
     alt="Picture of the author"
+    className="dark:invert"
   />
     // <svg
     //   xmlns="http://www.w3.org/2000/svg"

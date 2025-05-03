@@ -117,7 +117,15 @@ export const Footer = () => {
                 loading="lazy"
                 width={24}
                 height={24}
-                className="size-6 rounded-sm"
+                className="w-28 h-7 rounded-sm block dark:hidden"
+              />
+              <Avatar
+                src={siteConfig.global.logoWhite}
+                alt={siteConfig.global.name}
+                loading="lazy"
+                width={24}
+                height={24}
+                className="w-28 h-7 rounded-sm hidden dark:block"
               />
               <div className="mt-1 font-josephin font-bold leading-normal tracking-tighter">
                 {siteConfig.global.name}
@@ -167,10 +175,10 @@ export const Footer = () => {
           Built with{" "}
           <Link href="https://www.caryleblondell.com/" target="_blank" className="underline">
 
-          Love
+            Love
           </Link>
           .
-           {/* The source code is available on{" "}
+          {/* The source code is available on{" "}
           <Link href="https://github.com/karthikmudunuri" target="_blank" className="underline">
             GitHub.
           </Link> */}
