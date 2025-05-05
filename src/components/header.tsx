@@ -43,20 +43,20 @@ export const Header = () => {
               aria-hidden={scrolled}
             >
               <Avatar
-                src={siteConfig.global.logo}
-                alt={siteConfig.global.name}
+                src={siteConfig.global.logoFull}
+                // alt={siteConfig.global.name}
                 loading="lazy"
                 width={24}
                 height={24}
-                className="w-28 h-7 rounded-sm block dark:hidden"
+                className="w-44 h-16 rounded-sm block dark:hidden"
               />
               <Avatar
-                src={siteConfig.global.logoWhite}
-                alt={siteConfig.global.name}
+                src={siteConfig.global.logoFull}
+                // alt={siteConfig.global.name}
                 loading="lazy"
                 width={24}
                 height={24}
-                className="w-28 h-7 rounded-sm hidden dark:block"
+                className="w-44 h-16 rounded-sm hidden dark:block"
               />
               <div className="mt-1 font-sans whitespace-nowrap font-bold leading-normal tracking-tighter">
                 {siteConfig.global.name}
